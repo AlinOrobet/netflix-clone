@@ -1,46 +1,40 @@
-# Getting Started with Create React App and Redux
+# Netflix Clone 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+The movies database is taken from the [TMDB](https://www.themoviedb.org/) as endpoints.
 
-In the project directory, you can run:
+[Demo Live](https://netflix-clone-ao.web.app/)
 
-### `npm start`
+# Table of contents
+- About project
+- Features
+- Languages and Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# About project
+The free API from [TMDB](https://www.themoviedb.org/) is used for data access.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I chose this project to learn new functionalities and more aspects, tips and tricks in React.js. In the project code I used the following hooks: useState, useEffect, useParams, useContext, useNavigate (React Router),useDispatch,useSelector(React Redux) and to work with Axios. The data we receive it through Fetch we pass it through the created adapter, so we extract only the information that we still use in the project.Data from users (for accounts) will be stored in Cloud Firestore.
 
-### `npm test`
+As a user you can create a new user account, log in and buy a subscription.More you can watch movies in various categories (just as a presentation title) , just like in the original Netflix application
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Features
+Among the main features are:
 
-### `npm run build`
+- Log In and Log Out Authentication Flow with Google
+- Home Screen with all the movies looking just like Netflix
+- Subscription page where you can see your active monthly subscription and any recurring subscriptions
+- Complete Stripe Payments Checkout Flow for the paid monthly Netflix Subscriptions
+- Firebase extension for synchronising Stripe Recurring Payments with Users
+- Build and host using Firebase Hosting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Languages and Tools
+- [ReactJS](https://reactjs.org/)
+- [React Router](https://reactrouter.com/en/main)
+- [React Redux](https://stripe.com/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Axios](https://www.digitalocean.com/community/tutorials/react-axios-react)
+- [Stripe](https://stripe.com/)
+- [Cloud Firestore](https://firebase.google.com/)
+- [Firebase](https://firebase.google.com/)
+- Credits : [Sonny Sangha](https://www.youtube.com/c/SonnySangha) 
